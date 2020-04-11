@@ -96,4 +96,33 @@ footer p{
 footer{
     padding:2.2em;
 }
+.pad{
+    padding-top: 20rem;;
+}
+/* small screen*/
+@media(max-width:640px)
+.showcase::after{
+    height:50vh;
 
+}
+.content{
+    top:50%;
+    margin-top:50px;
+}
+.content.logo{
+    height: 140px;
+    width: 140px;
+
+}
+.content .text{
+    display: none;
+}
+.grid-3 ,.grid-2{
+    grid-template-columns: 1fr;
+}
+.service div{
+    border-bottom:#333 dashed 1px;
+}
+@media(max-width){
+    width:100%;
+}
